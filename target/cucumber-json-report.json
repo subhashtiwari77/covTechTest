@@ -1,0 +1,402 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-04T19:14:47.113Z",
+        "line": 10,
+        "name": "A invalid email address is entered",
+        "description": "",
+        "id": "automation-tech-test-scenarios;a-invalid-email-address-is-entered;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 904193100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8860724700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the user is on the quote page",
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.theUserIsOnTheQuotePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1411026700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "an invalid email address is entered : \"abc^2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc^2\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.anInvalidEmailAddressIsEntered(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142618600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "an error is displayed",
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.anErrorIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@techTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-04T19:14:58.445Z",
+        "line": 20,
+        "name": "A valid email address is entered",
+        "description": "",
+        "id": "automation-tech-test-scenarios;a-valid-email-address-is-entered;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 696408100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7958040400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user is on the quote page",
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.theUserIsOnTheQuotePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1337140700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "an valid email address is entered : \"a@b.c\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a@b.c\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.anValidEmailAddressIsEntered(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29920200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "no error is displayed",
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.noErrorIsDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@techTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-04T19:15:08.476Z",
+        "line": 31,
+        "name": "Email address and confirm email address do not match",
+        "description": "",
+        "id": "automation-tech-test-scenarios;email-address-and-confirm-email-address-do-not-match;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 691858600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7717920000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "the user is on the quote page",
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.theUserIsOnTheQuotePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1399219900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "an valid email address is entered : \"a@b.c\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a@b.c\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.anValidEmailAddressIsEntered(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 227975700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "a different valid confirm email address is entered : \"x@y.z\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"x@y.z\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.aDifferentValidConfirmEmailAddressIsEntered(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73804100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "an error is displayed for email not matching",
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.anErrorIsDisplayedForEmailNotMatching()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@techTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-04T19:15:18.589Z",
+        "line": 43,
+        "name": "Email address and confirm email address match",
+        "description": "",
+        "id": "automation-tech-test-scenarios;email-address-and-confirm-email-address-match;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 651276600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7681854000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "the user is on the quote page",
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.theUserIsOnTheQuotePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1366640600,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "an valid email address is entered : \"a@b.c\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a@b.c\"",
+                  "offset": 36
+                }
+              ],
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.anValidEmailAddressIsEntered(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206414300,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "a different valid confirm email address is entered : \"a@b.c\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a@b.c\"",
+                  "offset": 53
+                }
+              ],
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.aDifferentValidConfirmEmailAddressIsEntered(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 17937100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "no error is displayed for email not matching",
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.noErrorIsDisplayedForEmailNotMatching()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@techTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-12-04T19:15:28.516Z",
+        "line": 53,
+        "name": "A invalid date of birth is entered",
+        "description": "",
+        "id": "automation-tech-test-scenarios;a-invalid-date-of-birth-is-entered;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 776671300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8711555500,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "the user is on the quote page",
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.theUserIsOnTheQuotePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1844116500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "an date of birth is entered : \"58\", \"35\", \"2050\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"58\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"35\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"2050\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.anDateOfBirthIsEntered(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 100730700,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "an error is displayed for invalid date of birth",
+            "match": {
+              "location": "com.covea.techtest.stepDefs.AutoTechTestSteps.anErrorIsDisplayedForInvalidDateOfBirth()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@techTest"
+          }
+        ]
+      }
+    ],
+    "name": "Automation tech test scenarios",
+    "description": "",
+    "id": "automation-tech-test-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/covea/techtest/feature/AutoTechTest.feature",
+    "tags": []
+  }
+]
